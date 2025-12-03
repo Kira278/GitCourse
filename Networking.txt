@@ -1,0 +1,71 @@
+2-Week Networking Learning Plan (Beginner → AWS Ready)
+WEEK 1 — Networking Fundamentals
+DAY 1 — IP Addresses & Subnets
+- Public vs private IP
+- CIDR basics (/24, /16)
+- Subnet basics
+- Commands: ip a
+DAY 2 — Ports & Protocols
+- Common ports (22, 80, 443, 3306)
+- TCP vs UDP
+- ICMP
+- Commands: ping, nc -vz
+DAY 3 — Routing Basics
+- What is a route table
+- Default route (0.0.0.0/0)
+- Commands: ip route
+DAY 4 — Firewalls (SG vs NACL vs OS Firewall)
+- SG: stateful, allow only
+- NACL: stateless, allow + deny
+- iptables basics
+DAY 5 — Connectivity Tools
+- ping, traceroute, mtr
+- curl -v
+- nslookup / dig
+DAY 6 — SSH Troubleshooting
+- ssh -vvv
+- systemctl status sshd
+- netstat / ss
+- iptables checks
+DAY 7 — Week 1 Revision
+- Review commands
+- Review concepts
+WEEK 2 — AWS Networking
+DAY 8 — VPC Basics
+- VPC, subnets, CIDR ranges
+- Public vs private subnet
+DAY 9 — IGW, NAT, Public IP
+- Internet Gateway
+- NAT Gateway
+- auto-assign public IP
+DAY 10 — Security Groups
+- Inbound & outbound rules
+- SG to SG communication
+DAY 11 — NACLs
+- Allow/deny rules
+- Inbound/outbound matching
+DAY 12 — VPC Peering & Endpoints
+- Basic peering
+- S3 endpoint
+DAY 13 — AWS Diagnostics
+- VPC Reachability Analyzer
+- VPC Flow Logs
+DAY 14 — Week Review
+- Real-world scenarios
+
+
+------
+search - 
+"AWS VPC basics 15 minutes"
+"Security group vs NACL simple explanation"
+"Ping vs traceroute vs curl"
+"Public vs private subnet AWS"
+"How NAT gateway works AWS"
+
+
+------
+practical -
+Create VPC
+Create subnets
+Launch 2 EC2s
+Fix connectivity using SG/NACL/Routes
